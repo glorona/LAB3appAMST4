@@ -123,7 +123,7 @@ public class redes_sensores extends AppCompatActivity {
                 System.out.println(token);
                 return params;
             }
-        };;
+        };
         mQueue.add(request_peso);
     }
 }
