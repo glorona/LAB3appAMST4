@@ -21,6 +21,12 @@ public class menu extends AppCompatActivity {
         this.finish();
         System.exit(0);
     }
+
+    public void agregarDatos(View v){
+        Intent nue_dat = new Intent(getBaseContext(), nuevos_datos.class);
+        nue_dat.putExtra("token",token);
+        startActivity(nue_dat);
+    }
     public void revisarSensores(View v){
         Intent red_sensores = new Intent(getBaseContext(), redes_sensores.class);
         red_sensores.putExtra("token", token);

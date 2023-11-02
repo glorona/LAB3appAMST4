@@ -15,6 +15,9 @@
         android:theme="@style/Theme.AMSTApiApp"
         tools:targetApi="31">
         <activity
+            android:name=".nuevos_datos"
+            android:exported="false" />
+        <activity
             android:name=".redes_sensores"
             android:exported="false" />
         <activity
